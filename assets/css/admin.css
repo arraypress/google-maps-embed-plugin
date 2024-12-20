@@ -1,0 +1,86 @@
+/* Maps Embed Test Plugin Admin Styles */
+
+.maps-embed-test {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.maps-embed-test-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.maps-embed-test-section h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.maps-embed-form .form-table th {
+    width: 200px;
+}
+
+.maps-embed-form input[type="number"] {
+    width: 200px;
+}
+
+/* Hide all mode-specific fields by default */
+.embed-mode {
+    display: none;
+}
+
+/* Embed preview styling */
+.embed-preview {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.embed-preview iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Embed code display */
+.embed-code {
+    margin: 20px 0;
+}
+
+.embed-code h4 {
+    margin: 0 0 10px 0;
+}
+
+.embed-code textarea {
+    font-family: monospace;
+    resize: vertical;
+    background: #f8f9fa;
+}
+
+/* Settings form styling */
+.maps-embed-form .description {
+    margin: 2px 0 5px;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .maps-embed-form .form-table th {
+        width: 100%;
+        display: block;
+    }
+
+    .maps-embed-form input[type="text"],
+    .maps-embed-form input[type="number"],
+    .maps-embed-form select {
+        width: 100%;
+    }
+
+    .embed-preview iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}

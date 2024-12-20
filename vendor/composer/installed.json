@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "arraypress/google-maps-embed",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-maps-embed.git",
+                "reference": "2d1a870611a86ce81bbaee8f2dc9a8cce07b3094"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-maps-embed/zipball/2d1a870611a86ce81bbaee8f2dc9a8cce07b3094",
+                "reference": "2d1a870611a86ce81bbaee8f2dc9a8cce07b3094",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-12-19T19:34:06+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\MapsEmbed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Maps Embed API in WordPress, providing interactive map embeds with support for places, searches, directions, and street view. Features WordPress error handling and customizable iframe generation.",
+            "homepage": "https://github.com/arraypress/google-maps-embed/",
+            "keywords": [
+                "directions-maps",
+                "embedded-maps",
+                "google-maps",
+                "google-places",
+                "iframe-maps",
+                "interactive-maps",
+                "location-display",
+                "map-integration",
+                "maps-embed",
+                "place-maps",
+                "street-view",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-maps-embed/issues",
+                "source": "https://github.com/arraypress/google-maps-embed"
+            },
+            "install-path": "../arraypress/google-maps-embed"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
